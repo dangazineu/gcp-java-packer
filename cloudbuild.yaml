@@ -5,7 +5,4 @@ steps:
   - 'PKR_VAR_builder_sa=packer@$PROJECT_ID.iam.gserviceaccount.com'
   args:
   - build
-#  create this file locally and replace it with values applicable to your project
-#  TODO convert these into envvars
-#  - -var-file=variables.pkrvars.hcl
   - build.pkr.hcl
